@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nailed - Instructions</title>
+        <link type="text/css" rel="stylesheet" href="css/nailed.css" /> 
+        <link type="text/css" rel="stylesheet" href="css/index.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+    </head>
+    <body>
+        
+        <script src="js/nailed.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('a[href^="#"]').on('click', function(e) {
+                    e.preventDefault();
+                    var target = this.hash;
+                    var $target = $(target);
+                    $('html, body').stop().animate({
+                        'scrollTop': $target.offset().top
+                    }, 900, 'swing', function() {
+                        window.location.hash = target;
+                    });
+                });
+            });
+        </script>
+    </body>
+</html>
