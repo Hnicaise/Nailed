@@ -1,0 +1,43 @@
+/* HEADERS */
+html {
+    font-size: 100%;
+}
+h1 {
+    font-size: 4.75rem;
+}
+h2 {
+    font-size: 4rem;
+}
+h3 {
+    font-size: 3.25rem;
+}
+h4 {
+    font-size: 2.5rem;
+}
+h5 {
+    font-size: 1.75rem;
+}
+h6 {
+    font-size: 1rem;
+}
+
+/* ROW */
+.row {
+    display: flex;
+}
+.row.spread {
+    justify-content: space-between;
+}
+.row.center {
+    justify-content: center;
+}
+
+/* COLUMN */
+.row .col{
+    width: 100%;
+}
+@for $i from 0 through 100 {
+    .row .col.offset-#{$i} {
+        margin-left:1%*$i;
+    }
+}
