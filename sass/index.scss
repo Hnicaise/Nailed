@@ -1,1 +1,29 @@
-@import 'nailed';
+html {
+    font-family: 'Lato';
+}
+.row {
+    margin: 0 auto;
+}
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #263238;
+    margin-bottom: 50px;
+}
+h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #263238;
+}
+hr {
+    height: 1px;
+    background-color: #d5d5d5;
+    border: none;
+    width: 100%;
+    margin: 20px 0;
+}
+p {
+    color: #37474f;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
