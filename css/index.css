@@ -67,7 +67,7 @@ nav {
   position: relative;
   background-color: #f8f8f8;
   border-left: 4px solid #00b4db;
-  padding: 15px 25px; }
+  padding: 15px 30px; }
 /* line 63, ../sass/index.scss */
 .notification:before {
   content: url("../img/mark.svg");
@@ -92,6 +92,15 @@ code {
   display: block;
   font-family: monospace;
   background-color: #f8f8f8;
-  padding: 15px 25px;
-  font-size: 1.2rem;
+  padding: 15px 20px;
+  font-size: 1.1rem;
   line-height: 1.5; }
+/* line 87, ../sass/index.scss */
+code .comment {
+  color: #999; }
+/* line 90, ../sass/index.scss */
+code .attribute {
+  color: #00cf8d; }
+/* line 93, ../sass/index.scss */
+code .properties {
+  color: #00b4db; }

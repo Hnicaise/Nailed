@@ -59,7 +59,7 @@ nav {
     position: relative;
     background-color: #f8f8f8;
     border-left: 4px solid #00b4db;
-    padding: 15px 25px;
+    padding: 15px 30px;
     &:before {
         content: url('../img/mark.svg');
         display: inline-block;
@@ -81,7 +81,16 @@ code {
     display: block;
     font-family: monospace;
     background-color: #f8f8f8;
-    padding: 15px 25px;
-    font-size: 1.2rem;
+    padding: 15px 20px;
+    font-size: 1.1rem;
     line-height: 1.5;
+    .comment {
+        color: #999;
+    }
+    .attribute {
+        color: 	#42b983;
+    }
+    .properties {
+        color: #00b4db;
+    }
 }
