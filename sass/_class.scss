@@ -1,3 +1,20 @@
+/* WIDTH */
+.tiny {
+    width: $tiny;
+}
+.small {
+    width: $small;
+}
+.medium {
+    width: $medium;
+}
+.large {
+    width: $large;
+}
+.extra {
+    width: $extra;
+}
+
 /* ROW */
 .row {
     display: flex;

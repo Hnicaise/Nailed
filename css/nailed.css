@@ -40,2855 +40,2876 @@ html {
   font-size: 100%; }
 
 /* SIZES */
-/* ROW */
+/* WIDTH */
 /* line 2, ../sass/_class.scss */
+.tiny {
+  width: 600px; }
+
+/* line 5, ../sass/_class.scss */
+.small {
+  width: 768px; }
+
+/* line 8, ../sass/_class.scss */
+.medium {
+  width: 960px; }
+
+/* line 11, ../sass/_class.scss */
+.large {
+  width: 1366px; }
+
+/* line 14, ../sass/_class.scss */
+.extra {
+  width: 1920px; }
+
+/* ROW */
+/* line 19, ../sass/_class.scss */
 .row {
   display: flex; }
 
-/* line 5, ../sass/_class.scss */
+/* line 22, ../sass/_class.scss */
 .row.spread {
   justify-content: space-between; }
 
-/* line 8, ../sass/_class.scss */
+/* line 25, ../sass/_class.scss */
 .row.center {
   justify-content: center; }
 
 /* COLUMN */
-/* line 13, ../sass/_class.scss */
+/* line 30, ../sass/_class.scss */
 .row .col {
   width: 100%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-0 {
   margin-left: 0%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-1 {
   margin-left: 1%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-2 {
   margin-left: 2%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-3 {
   margin-left: 3%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-4 {
   margin-left: 4%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-5 {
   margin-left: 5%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-6 {
   margin-left: 6%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-7 {
   margin-left: 7%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-8 {
   margin-left: 8%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-9 {
   margin-left: 9%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-10 {
   margin-left: 10%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-11 {
   margin-left: 11%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-12 {
   margin-left: 12%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-13 {
   margin-left: 13%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-14 {
   margin-left: 14%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-15 {
   margin-left: 15%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-16 {
   margin-left: 16%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-17 {
   margin-left: 17%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-18 {
   margin-left: 18%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-19 {
   margin-left: 19%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-20 {
   margin-left: 20%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-21 {
   margin-left: 21%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-22 {
   margin-left: 22%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-23 {
   margin-left: 23%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-24 {
   margin-left: 24%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-25 {
   margin-left: 25%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-26 {
   margin-left: 26%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-27 {
   margin-left: 27%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-28 {
   margin-left: 28%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-29 {
   margin-left: 29%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-30 {
   margin-left: 30%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-31 {
   margin-left: 31%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-32 {
   margin-left: 32%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-33 {
   margin-left: 33%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-34 {
   margin-left: 34%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-35 {
   margin-left: 35%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-36 {
   margin-left: 36%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-37 {
   margin-left: 37%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-38 {
   margin-left: 38%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-39 {
   margin-left: 39%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-40 {
   margin-left: 40%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-41 {
   margin-left: 41%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-42 {
   margin-left: 42%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-43 {
   margin-left: 43%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-44 {
   margin-left: 44%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-45 {
   margin-left: 45%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-46 {
   margin-left: 46%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-47 {
   margin-left: 47%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-48 {
   margin-left: 48%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-49 {
   margin-left: 49%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-50 {
   margin-left: 50%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-51 {
   margin-left: 51%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-52 {
   margin-left: 52%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-53 {
   margin-left: 53%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-54 {
   margin-left: 54%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-55 {
   margin-left: 55%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-56 {
   margin-left: 56%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-57 {
   margin-left: 57%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-58 {
   margin-left: 58%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-59 {
   margin-left: 59%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-60 {
   margin-left: 60%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-61 {
   margin-left: 61%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-62 {
   margin-left: 62%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-63 {
   margin-left: 63%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-64 {
   margin-left: 64%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-65 {
   margin-left: 65%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-66 {
   margin-left: 66%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-67 {
   margin-left: 67%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-68 {
   margin-left: 68%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-69 {
   margin-left: 69%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-70 {
   margin-left: 70%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-71 {
   margin-left: 71%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-72 {
   margin-left: 72%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-73 {
   margin-left: 73%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-74 {
   margin-left: 74%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-75 {
   margin-left: 75%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-76 {
   margin-left: 76%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-77 {
   margin-left: 77%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-78 {
   margin-left: 78%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-79 {
   margin-left: 79%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-80 {
   margin-left: 80%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-81 {
   margin-left: 81%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-82 {
   margin-left: 82%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-83 {
   margin-left: 83%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-84 {
   margin-left: 84%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-85 {
   margin-left: 85%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-86 {
   margin-left: 86%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-87 {
   margin-left: 87%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-88 {
   margin-left: 88%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-89 {
   margin-left: 89%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-90 {
   margin-left: 90%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-91 {
   margin-left: 91%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-92 {
   margin-left: 92%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-93 {
   margin-left: 93%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-94 {
   margin-left: 94%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-95 {
   margin-left: 95%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-96 {
   margin-left: 96%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-97 {
   margin-left: 97%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-98 {
   margin-left: 98%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-99 {
   margin-left: 99%; }
 
-/* line 17, ../sass/_class.scss */
+/* line 34, ../sass/_class.scss */
 .row .col.offset-100 {
   margin-left: 100%; }
 
 /* DEFAULT */
 @media screen and (max-width: 100vw) {
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-0 {
     width: 0%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-1 {
     width: 1%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-2 {
     width: 2%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-3 {
     width: 3%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-4 {
     width: 4%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-5 {
     width: 5%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-6 {
     width: 6%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-7 {
     width: 7%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-8 {
     width: 8%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-9 {
     width: 9%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-10 {
     width: 10%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-11 {
     width: 11%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-12 {
     width: 12%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-13 {
     width: 13%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-14 {
     width: 14%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-15 {
     width: 15%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-16 {
     width: 16%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-17 {
     width: 17%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-18 {
     width: 18%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-19 {
     width: 19%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-20 {
     width: 20%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-21 {
     width: 21%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-22 {
     width: 22%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-23 {
     width: 23%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-24 {
     width: 24%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-25 {
     width: 25%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-26 {
     width: 26%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-27 {
     width: 27%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-28 {
     width: 28%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-29 {
     width: 29%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-30 {
     width: 30%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-31 {
     width: 31%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-32 {
     width: 32%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-33 {
     width: 33%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-34 {
     width: 34%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-35 {
     width: 35%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-36 {
     width: 36%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-37 {
     width: 37%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-38 {
     width: 38%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-39 {
     width: 39%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-40 {
     width: 40%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-41 {
     width: 41%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-42 {
     width: 42%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-43 {
     width: 43%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-44 {
     width: 44%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-45 {
     width: 45%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-46 {
     width: 46%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-47 {
     width: 47%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-48 {
     width: 48%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-49 {
     width: 49%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-50 {
     width: 50%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-51 {
     width: 51%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-52 {
     width: 52%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-53 {
     width: 53%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-54 {
     width: 54%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-55 {
     width: 55%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-56 {
     width: 56%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-57 {
     width: 57%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-58 {
     width: 58%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-59 {
     width: 59%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-60 {
     width: 60%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-61 {
     width: 61%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-62 {
     width: 62%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-63 {
     width: 63%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-64 {
     width: 64%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-65 {
     width: 65%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-66 {
     width: 66%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-67 {
     width: 67%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-68 {
     width: 68%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-69 {
     width: 69%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-70 {
     width: 70%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-71 {
     width: 71%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-72 {
     width: 72%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-73 {
     width: 73%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-74 {
     width: 74%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-75 {
     width: 75%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-76 {
     width: 76%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-77 {
     width: 77%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-78 {
     width: 78%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-79 {
     width: 79%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-80 {
     width: 80%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-81 {
     width: 81%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-82 {
     width: 82%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-83 {
     width: 83%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-84 {
     width: 84%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-85 {
     width: 85%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-86 {
     width: 86%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-87 {
     width: 87%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-88 {
     width: 88%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-89 {
     width: 89%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-90 {
     width: 90%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-91 {
     width: 91%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-92 {
     width: 92%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-93 {
     width: 93%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-94 {
     width: 94%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-95 {
     width: 95%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-96 {
     width: 96%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-97 {
     width: 97%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-98 {
     width: 98%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-99 {
     width: 99%; }
 
-  /* line 25, ../sass/_class.scss */
+  /* line 42, ../sass/_class.scss */
   .row .col.col-100 {
     width: 100%; } }
 /* EXTRA LARGE */
 @media screen and (max-width: 1920px) {
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-0 {
     width: 0%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-1 {
     width: 1%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-2 {
     width: 2%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-3 {
     width: 3%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-4 {
     width: 4%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-5 {
     width: 5%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-6 {
     width: 6%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-7 {
     width: 7%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-8 {
     width: 8%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-9 {
     width: 9%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-10 {
     width: 10%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-11 {
     width: 11%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-12 {
     width: 12%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-13 {
     width: 13%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-14 {
     width: 14%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-15 {
     width: 15%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-16 {
     width: 16%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-17 {
     width: 17%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-18 {
     width: 18%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-19 {
     width: 19%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-20 {
     width: 20%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-21 {
     width: 21%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-22 {
     width: 22%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-23 {
     width: 23%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-24 {
     width: 24%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-25 {
     width: 25%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-26 {
     width: 26%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-27 {
     width: 27%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-28 {
     width: 28%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-29 {
     width: 29%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-30 {
     width: 30%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-31 {
     width: 31%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-32 {
     width: 32%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-33 {
     width: 33%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-34 {
     width: 34%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-35 {
     width: 35%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-36 {
     width: 36%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-37 {
     width: 37%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-38 {
     width: 38%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-39 {
     width: 39%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-40 {
     width: 40%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-41 {
     width: 41%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-42 {
     width: 42%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-43 {
     width: 43%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-44 {
     width: 44%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-45 {
     width: 45%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-46 {
     width: 46%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-47 {
     width: 47%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-48 {
     width: 48%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-49 {
     width: 49%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-50 {
     width: 50%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-51 {
     width: 51%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-52 {
     width: 52%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-53 {
     width: 53%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-54 {
     width: 54%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-55 {
     width: 55%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-56 {
     width: 56%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-57 {
     width: 57%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-58 {
     width: 58%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-59 {
     width: 59%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-60 {
     width: 60%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-61 {
     width: 61%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-62 {
     width: 62%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-63 {
     width: 63%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-64 {
     width: 64%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-65 {
     width: 65%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-66 {
     width: 66%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-67 {
     width: 67%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-68 {
     width: 68%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-69 {
     width: 69%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-70 {
     width: 70%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-71 {
     width: 71%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-72 {
     width: 72%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-73 {
     width: 73%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-74 {
     width: 74%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-75 {
     width: 75%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-76 {
     width: 76%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-77 {
     width: 77%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-78 {
     width: 78%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-79 {
     width: 79%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-80 {
     width: 80%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-81 {
     width: 81%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-82 {
     width: 82%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-83 {
     width: 83%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-84 {
     width: 84%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-85 {
     width: 85%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-86 {
     width: 86%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-87 {
     width: 87%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-88 {
     width: 88%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-89 {
     width: 89%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-90 {
     width: 90%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-91 {
     width: 91%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-92 {
     width: 92%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-93 {
     width: 93%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-94 {
     width: 94%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-95 {
     width: 95%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-96 {
     width: 96%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-97 {
     width: 97%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-98 {
     width: 98%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-99 {
     width: 99%; }
 
-  /* line 34, ../sass/_class.scss */
+  /* line 51, ../sass/_class.scss */
   .row .col.xl-100 {
     width: 100%; } }
 /* LARGE */
 @media screen and (max-width: 1366px) {
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-0 {
     width: 0%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-1 {
     width: 1%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-2 {
     width: 2%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-3 {
     width: 3%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-4 {
     width: 4%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-5 {
     width: 5%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-6 {
     width: 6%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-7 {
     width: 7%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-8 {
     width: 8%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-9 {
     width: 9%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-10 {
     width: 10%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-11 {
     width: 11%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-12 {
     width: 12%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-13 {
     width: 13%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-14 {
     width: 14%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-15 {
     width: 15%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-16 {
     width: 16%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-17 {
     width: 17%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-18 {
     width: 18%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-19 {
     width: 19%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-20 {
     width: 20%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-21 {
     width: 21%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-22 {
     width: 22%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-23 {
     width: 23%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-24 {
     width: 24%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-25 {
     width: 25%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-26 {
     width: 26%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-27 {
     width: 27%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-28 {
     width: 28%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-29 {
     width: 29%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-30 {
     width: 30%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-31 {
     width: 31%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-32 {
     width: 32%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-33 {
     width: 33%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-34 {
     width: 34%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-35 {
     width: 35%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-36 {
     width: 36%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-37 {
     width: 37%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-38 {
     width: 38%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-39 {
     width: 39%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-40 {
     width: 40%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-41 {
     width: 41%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-42 {
     width: 42%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-43 {
     width: 43%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-44 {
     width: 44%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-45 {
     width: 45%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-46 {
     width: 46%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-47 {
     width: 47%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-48 {
     width: 48%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-49 {
     width: 49%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-50 {
     width: 50%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-51 {
     width: 51%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-52 {
     width: 52%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-53 {
     width: 53%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-54 {
     width: 54%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-55 {
     width: 55%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-56 {
     width: 56%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-57 {
     width: 57%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-58 {
     width: 58%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-59 {
     width: 59%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-60 {
     width: 60%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-61 {
     width: 61%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-62 {
     width: 62%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-63 {
     width: 63%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-64 {
     width: 64%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-65 {
     width: 65%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-66 {
     width: 66%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-67 {
     width: 67%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-68 {
     width: 68%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-69 {
     width: 69%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-70 {
     width: 70%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-71 {
     width: 71%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-72 {
     width: 72%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-73 {
     width: 73%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-74 {
     width: 74%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-75 {
     width: 75%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-76 {
     width: 76%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-77 {
     width: 77%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-78 {
     width: 78%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-79 {
     width: 79%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-80 {
     width: 80%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-81 {
     width: 81%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-82 {
     width: 82%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-83 {
     width: 83%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-84 {
     width: 84%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-85 {
     width: 85%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-86 {
     width: 86%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-87 {
     width: 87%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-88 {
     width: 88%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-89 {
     width: 89%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-90 {
     width: 90%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-91 {
     width: 91%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-92 {
     width: 92%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-93 {
     width: 93%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-94 {
     width: 94%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-95 {
     width: 95%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-96 {
     width: 96%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-97 {
     width: 97%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-98 {
     width: 98%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-99 {
     width: 99%; }
 
-  /* line 43, ../sass/_class.scss */
+  /* line 60, ../sass/_class.scss */
   .row .col.lg-100 {
     width: 100%; } }
 /* MEDIUM */
 @media screen and (max-width: 960px) {
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-0 {
     width: 0%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-1 {
     width: 1%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-2 {
     width: 2%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-3 {
     width: 3%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-4 {
     width: 4%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-5 {
     width: 5%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-6 {
     width: 6%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-7 {
     width: 7%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-8 {
     width: 8%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-9 {
     width: 9%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-10 {
     width: 10%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-11 {
     width: 11%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-12 {
     width: 12%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-13 {
     width: 13%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-14 {
     width: 14%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-15 {
     width: 15%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-16 {
     width: 16%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-17 {
     width: 17%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-18 {
     width: 18%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-19 {
     width: 19%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-20 {
     width: 20%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-21 {
     width: 21%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-22 {
     width: 22%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-23 {
     width: 23%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-24 {
     width: 24%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-25 {
     width: 25%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-26 {
     width: 26%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-27 {
     width: 27%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-28 {
     width: 28%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-29 {
     width: 29%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-30 {
     width: 30%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-31 {
     width: 31%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-32 {
     width: 32%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-33 {
     width: 33%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-34 {
     width: 34%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-35 {
     width: 35%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-36 {
     width: 36%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-37 {
     width: 37%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-38 {
     width: 38%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-39 {
     width: 39%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-40 {
     width: 40%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-41 {
     width: 41%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-42 {
     width: 42%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-43 {
     width: 43%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-44 {
     width: 44%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-45 {
     width: 45%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-46 {
     width: 46%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-47 {
     width: 47%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-48 {
     width: 48%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-49 {
     width: 49%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-50 {
     width: 50%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-51 {
     width: 51%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-52 {
     width: 52%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-53 {
     width: 53%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-54 {
     width: 54%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-55 {
     width: 55%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-56 {
     width: 56%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-57 {
     width: 57%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-58 {
     width: 58%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-59 {
     width: 59%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-60 {
     width: 60%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-61 {
     width: 61%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-62 {
     width: 62%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-63 {
     width: 63%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-64 {
     width: 64%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-65 {
     width: 65%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-66 {
     width: 66%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-67 {
     width: 67%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-68 {
     width: 68%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-69 {
     width: 69%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-70 {
     width: 70%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-71 {
     width: 71%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-72 {
     width: 72%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-73 {
     width: 73%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-74 {
     width: 74%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-75 {
     width: 75%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-76 {
     width: 76%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-77 {
     width: 77%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-78 {
     width: 78%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-79 {
     width: 79%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-80 {
     width: 80%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-81 {
     width: 81%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-82 {
     width: 82%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-83 {
     width: 83%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-84 {
     width: 84%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-85 {
     width: 85%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-86 {
     width: 86%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-87 {
     width: 87%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-88 {
     width: 88%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-89 {
     width: 89%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-90 {
     width: 90%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-91 {
     width: 91%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-92 {
     width: 92%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-93 {
     width: 93%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-94 {
     width: 94%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-95 {
     width: 95%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-96 {
     width: 96%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-97 {
     width: 97%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-98 {
     width: 98%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-99 {
     width: 99%; }
 
-  /* line 52, ../sass/_class.scss */
+  /* line 69, ../sass/_class.scss */
   .row .col.md-100 {
     width: 100%; } }
 /* SMALL */
 @media screen and (max-width: 768px) {
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-0 {
     width: 0%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-1 {
     width: 1%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-2 {
     width: 2%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-3 {
     width: 3%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-4 {
     width: 4%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-5 {
     width: 5%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-6 {
     width: 6%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-7 {
     width: 7%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-8 {
     width: 8%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-9 {
     width: 9%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-10 {
     width: 10%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-11 {
     width: 11%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-12 {
     width: 12%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-13 {
     width: 13%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-14 {
     width: 14%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-15 {
     width: 15%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-16 {
     width: 16%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-17 {
     width: 17%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-18 {
     width: 18%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-19 {
     width: 19%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-20 {
     width: 20%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-21 {
     width: 21%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-22 {
     width: 22%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-23 {
     width: 23%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-24 {
     width: 24%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-25 {
     width: 25%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-26 {
     width: 26%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-27 {
     width: 27%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-28 {
     width: 28%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-29 {
     width: 29%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-30 {
     width: 30%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-31 {
     width: 31%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-32 {
     width: 32%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-33 {
     width: 33%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-34 {
     width: 34%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-35 {
     width: 35%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-36 {
     width: 36%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-37 {
     width: 37%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-38 {
     width: 38%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-39 {
     width: 39%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-40 {
     width: 40%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-41 {
     width: 41%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-42 {
     width: 42%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-43 {
     width: 43%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-44 {
     width: 44%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-45 {
     width: 45%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-46 {
     width: 46%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-47 {
     width: 47%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-48 {
     width: 48%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-49 {
     width: 49%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-50 {
     width: 50%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-51 {
     width: 51%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-52 {
     width: 52%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-53 {
     width: 53%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-54 {
     width: 54%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-55 {
     width: 55%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-56 {
     width: 56%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-57 {
     width: 57%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-58 {
     width: 58%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-59 {
     width: 59%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-60 {
     width: 60%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-61 {
     width: 61%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-62 {
     width: 62%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-63 {
     width: 63%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-64 {
     width: 64%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-65 {
     width: 65%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-66 {
     width: 66%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-67 {
     width: 67%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-68 {
     width: 68%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-69 {
     width: 69%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-70 {
     width: 70%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-71 {
     width: 71%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-72 {
     width: 72%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-73 {
     width: 73%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-74 {
     width: 74%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-75 {
     width: 75%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-76 {
     width: 76%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-77 {
     width: 77%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-78 {
     width: 78%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-79 {
     width: 79%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-80 {
     width: 80%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-81 {
     width: 81%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-82 {
     width: 82%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-83 {
     width: 83%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-84 {
     width: 84%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-85 {
     width: 85%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-86 {
     width: 86%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-87 {
     width: 87%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-88 {
     width: 88%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-89 {
     width: 89%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-90 {
     width: 90%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-91 {
     width: 91%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-92 {
     width: 92%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-93 {
     width: 93%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-94 {
     width: 94%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-95 {
     width: 95%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-96 {
     width: 96%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-97 {
     width: 97%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-98 {
     width: 98%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-99 {
     width: 99%; }
 
-  /* line 61, ../sass/_class.scss */
+  /* line 78, ../sass/_class.scss */
   .row .col.sm-100 {
     width: 100%; } }
 /* TINY */
 @media screen and (max-width: 600px) {
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-0 {
     width: 0%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-1 {
     width: 1%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-2 {
     width: 2%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-3 {
     width: 3%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-4 {
     width: 4%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-5 {
     width: 5%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-6 {
     width: 6%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-7 {
     width: 7%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-8 {
     width: 8%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-9 {
     width: 9%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-10 {
     width: 10%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-11 {
     width: 11%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-12 {
     width: 12%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-13 {
     width: 13%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-14 {
     width: 14%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-15 {
     width: 15%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-16 {
     width: 16%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-17 {
     width: 17%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-18 {
     width: 18%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-19 {
     width: 19%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-20 {
     width: 20%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-21 {
     width: 21%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-22 {
     width: 22%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-23 {
     width: 23%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-24 {
     width: 24%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-25 {
     width: 25%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-26 {
     width: 26%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-27 {
     width: 27%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-28 {
     width: 28%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-29 {
     width: 29%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-30 {
     width: 30%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-31 {
     width: 31%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-32 {
     width: 32%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-33 {
     width: 33%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-34 {
     width: 34%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-35 {
     width: 35%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-36 {
     width: 36%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-37 {
     width: 37%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-38 {
     width: 38%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-39 {
     width: 39%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-40 {
     width: 40%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-41 {
     width: 41%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-42 {
     width: 42%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-43 {
     width: 43%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-44 {
     width: 44%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-45 {
     width: 45%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-46 {
     width: 46%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-47 {
     width: 47%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-48 {
     width: 48%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-49 {
     width: 49%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-50 {
     width: 50%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-51 {
     width: 51%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-52 {
     width: 52%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-53 {
     width: 53%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-54 {
     width: 54%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-55 {
     width: 55%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-56 {
     width: 56%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-57 {
     width: 57%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-58 {
     width: 58%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-59 {
     width: 59%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-60 {
     width: 60%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-61 {
     width: 61%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-62 {
     width: 62%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-63 {
     width: 63%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-64 {
     width: 64%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-65 {
     width: 65%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-66 {
     width: 66%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-67 {
     width: 67%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-68 {
     width: 68%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-69 {
     width: 69%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-70 {
     width: 70%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-71 {
     width: 71%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-72 {
     width: 72%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-73 {
     width: 73%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-74 {
     width: 74%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-75 {
     width: 75%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-76 {
     width: 76%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-77 {
     width: 77%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-78 {
     width: 78%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-79 {
     width: 79%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-80 {
     width: 80%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-81 {
     width: 81%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-82 {
     width: 82%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-83 {
     width: 83%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-84 {
     width: 84%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-85 {
     width: 85%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-86 {
     width: 86%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-87 {
     width: 87%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-88 {
     width: 88%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-89 {
     width: 89%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-90 {
     width: 90%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-91 {
     width: 91%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-92 {
     width: 92%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-93 {
     width: 93%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-94 {
     width: 94%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-95 {
     width: 95%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-96 {
     width: 96%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-97 {
     width: 97%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-98 {
     width: 98%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-99 {
     width: 99%; }
 
-  /* line 70, ../sass/_class.scss */
+  /* line 87, ../sass/_class.scss */
   .row .col.tn-100 {
     width: 100%; } }
