@@ -45,30 +45,31 @@ nav {
   background-color: white;
   position: fixed;
   top: 0;
-  width: 100%; }
+  width: 100%;
+  z-index: 1; }
 
-/* line 45, ../sass/index.scss */
+/* line 46, ../sass/index.scss */
 .logo {
   height: 30px;
   position: fixed;
   top: 10px;
   left: 50px;
-  z-index: 1; }
+  z-index: 2; }
 
-/* line 52, ../sass/index.scss */
+/* line 53, ../sass/index.scss */
 .github {
   position: fixed;
   height: 50px;
   right: 0;
-  z-index: 1; }
+  z-index: 2; }
 
-/* line 58, ../sass/index.scss */
+/* line 59, ../sass/index.scss */
 .notification {
   position: relative;
   background-color: #f8f8f8;
   border-left: 4px solid #00b4db;
   padding: 15px 30px; }
-/* line 63, ../sass/index.scss */
+/* line 64, ../sass/index.scss */
 .notification:before {
   content: url("../img/mark.svg");
   display: inline-block;
@@ -78,16 +79,16 @@ nav {
   position: absolute;
   left: -12px; }
 
-/* line 73, ../sass/index.scss */
+/* line 74, ../sass/index.scss */
 b {
   font-weight: bold; }
 
-/* line 76, ../sass/index.scss */
+/* line 77, ../sass/index.scss */
 mark {
   font-weight: bold;
   color: #00b4db; }
 
-/* line 80, ../sass/index.scss */
+/* line 81, ../sass/index.scss */
 code {
   display: block;
   font-family: monospace;
@@ -95,12 +96,12 @@ code {
   padding: 15px 20px;
   font-size: 1.1rem;
   line-height: 1.5; }
-/* line 87, ../sass/index.scss */
+/* line 88, ../sass/index.scss */
 code .comment {
   color: #999; }
-/* line 90, ../sass/index.scss */
+/* line 91, ../sass/index.scss */
 code .attribute {
   color: #42b983; }
-/* line 93, ../sass/index.scss */
+/* line 94, ../sass/index.scss */
 code .properties {
   color: #00b4db; }
