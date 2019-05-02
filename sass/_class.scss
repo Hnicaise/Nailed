@@ -1,7 +1,4 @@
 /* WIDTH */
-.tiny {
-    width: $tiny;
-}
 .small {
     width: $small;
 }
@@ -76,15 +73,6 @@
 @media screen and (max-width: $small) {
     @for $i from 0 through 100 {
         .row .col.sm-#{$i} {
-            width:1%*$i;
-        }
-    }
-}
-
-/* TINY */
-@media screen and (max-width: $tiny) {
-    @for $i from 0 through 100 {
-        .row .col.tn-#{$i} {
             width:1%*$i;
         }
     }

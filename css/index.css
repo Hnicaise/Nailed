@@ -6,18 +6,18 @@ html {
 
 /* line 7, ../sass/index.scss */
 .row {
-  margin: 0 auto;
+  margin-left: calc(50vw - 300px);
   position: relative;
-  top: 100px; }
+  margin-top: 100px; }
 
-/* line 12, ../sass/index.scss */
-h2 {
-  font-size: 1.9rem;
+/* line 13, ../sass/index.scss */
+.row h2 {
+  font-size: 2.1rem;
   font-weight: bold;
   color: #263238; }
 
-/* line 17, ../sass/index.scss */
-h3 {
+/* line 18, ../sass/index.scss */
+.row h3 {
   font-size: 1.3rem;
   font-weight: bold;
   color: #263238;
@@ -25,19 +25,71 @@ h3 {
   padding-bottom: 25px;
   margin: 50px 0 20px 0; }
 
-/* line 25, ../sass/index.scss */
+/* line 26, ../sass/index.scss */
 p {
   color: #37474f;
   font-size: 1rem;
   line-height: 1.5;
   text-align: justify; }
-/* line 30, ../sass/index.scss */
+/* line 31, ../sass/index.scss */
 p a {
   font-weight: bold;
   color: #00b4db;
   text-decoration: none; }
 
-/* line 36, ../sass/index.scss */
+/* line 37, ../sass/index.scss */
+.side-menu {
+  position: relative;
+  top: 50px;
+  left: 50px; }
+
+/* line 43, ../sass/index.scss */
+ul a {
+  text-decoration: none;
+  color: #222;
+  cursor: pointer; }
+/* line 47, ../sass/index.scss */
+ul a:hover {
+  color: #00b4db; }
+/* line 51, ../sass/index.scss */
+ul h2 {
+  font-size: 1rem;
+  margin-bottom: 15px; }
+/* line 55, ../sass/index.scss */
+ul li {
+  font-size: .9rem;
+  margin-bottom: 15px; }
+/* line 58, ../sass/index.scss */
+ul li ul {
+  margin-left: 20px;
+  margin-bottom: 15px; }
+
+/* line 64, ../sass/index.scss */
+.download {
+  background-color: #00b4db;
+  color: white;
+  padding: 8px 12px 10px 12px;
+  border-radius: 3px;
+  transition: .2s;
+  margin-right: 20px;
+  font-weight: 400;
+  display: inline; }
+/* line 73, ../sass/index.scss */
+.download:after {
+  content: "";
+  position: relative;
+  display: inline-block;
+  background-size: 15px;
+  width: 15px;
+  height: 15px;
+  background-image: url("../img/download.svg");
+  margin-left: 7px;
+  top: 2px; }
+/* line 84, ../sass/index.scss */
+.download:hover {
+  opacity: .8; }
+
+/* line 88, ../sass/index.scss */
 nav {
   border-bottom: #eee solid 1px;
   height: 50px;
@@ -48,7 +100,24 @@ nav {
   width: 100%;
   z-index: 1; }
 
-/* line 46, ../sass/index.scss */
+/* line 98, ../sass/index.scss */
+aside {
+  height: calc(100vh - 50px);
+  width: 300px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: white;
+  z-index: 1; }
+
+/* line 109, ../sass/index.scss */
+.separator {
+  height: 100px;
+  border: none; }
+
+/* line 113, ../sass/index.scss */
 .logo {
   height: 30px;
   position: fixed;
@@ -56,20 +125,21 @@ nav {
   left: 50px;
   z-index: 2; }
 
-/* line 53, ../sass/index.scss */
+/* line 120, ../sass/index.scss */
 .github {
   position: fixed;
   height: 50px;
+  top: 0;
   right: 0;
   z-index: 2; }
 
-/* line 59, ../sass/index.scss */
+/* line 127, ../sass/index.scss */
 .notification {
   position: relative;
   background-color: #f8f8f8;
   border-left: 4px solid #00b4db;
   padding: 15px 30px; }
-/* line 64, ../sass/index.scss */
+/* line 132, ../sass/index.scss */
 .notification:before {
   content: url("../img/mark.svg");
   display: inline-block;
@@ -79,16 +149,16 @@ nav {
   position: absolute;
   left: -12px; }
 
-/* line 74, ../sass/index.scss */
+/* line 142, ../sass/index.scss */
 b {
   font-weight: bold; }
 
-/* line 77, ../sass/index.scss */
+/* line 145, ../sass/index.scss */
 mark {
   font-weight: bold;
   color: #00b4db; }
 
-/* line 81, ../sass/index.scss */
+/* line 149, ../sass/index.scss */
 code {
   display: block;
   font-family: monospace;
@@ -96,12 +166,17 @@ code {
   padding: 15px 20px;
   font-size: 1.1rem;
   line-height: 1.5; }
-/* line 88, ../sass/index.scss */
+/* line 156, ../sass/index.scss */
 code .comment {
   color: #999; }
-/* line 91, ../sass/index.scss */
+/* line 159, ../sass/index.scss */
 code .attribute {
   color: #42b983; }
-/* line 94, ../sass/index.scss */
+/* line 162, ../sass/index.scss */
 code .properties {
   color: #00b4db; }
+
+@media screen and (max-width: 1366px) {
+  /* line 168, ../sass/index.scss */
+  .row {
+    margin-left: 350px !important; } }

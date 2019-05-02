@@ -5,16 +5,17 @@ html {
     font-family: 'Lato';
 }
 .row {
-    margin: 0 auto;
+    margin-left: calc(50vw - 300px);
+
     position: relative;
-    top: 100px;
+    margin-top: 100px;
 }
-h2 {
-    font-size: 1.9rem;
+.row h2 {
+    font-size: 2.1rem;
     font-weight: bold;
     color: #263238;
 }
-h3 {
+.row h3 {
     font-size: 1.3rem;
     font-weight: bold;
     color: #263238;
@@ -33,6 +34,57 @@ p {
         text-decoration: none;
     }
 }
+.side-menu {
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+ul {
+    a {
+        text-decoration: none;
+        color: #222;
+        cursor: pointer;
+        &:hover {
+            color: #00b4db;
+        }
+    }
+    h2 {
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+    li {
+        font-size: .9rem;
+        margin-bottom: 15px;
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+    }
+}
+.download {
+    background-color: #00b4db;
+    color: white;
+    padding: 8px 12px 10px 12px;
+    border-radius: 3px;
+    transition: .2s;
+    margin-right: 20px;
+    font-weight: 400;
+    display: inline;
+    &:after {
+        content: "";
+        position: relative;
+        display: inline-block;
+        background-size: 15px;
+        width: 15px;
+        height: 15px;
+        background-image: url('../img/download.svg');
+        margin-left: 7px;
+        top: 2px;
+    }
+    &:hover {
+        opacity: .8;
+    }
+}
 nav {
     border-bottom: #eee solid 1px;
     height: 50px;
@@ -42,6 +94,21 @@ nav {
     top: 0;
     width: 100%;
     z-index: 1;
+}
+aside {
+    height: calc(100vh - 50px);
+    width: 300px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: white;
+    z-index: 1;
+}
+.separator {
+    height: 100px;
+    border: none;
 }
 .logo {
     height: 30px;
@@ -53,6 +120,7 @@ nav {
 .github {
     position: fixed;
     height: 50px;
+    top: 0;
     right: 0;
     z-index: 2;
 }
@@ -93,5 +161,11 @@ code {
     }
     .properties {
         color: #00b4db;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .row {
+        margin-left: 350px !important;
     }
 }
