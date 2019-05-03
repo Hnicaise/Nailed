@@ -34,7 +34,7 @@
     width: 100%;
 }
 @for $i from 0 through 100 {
-    .row .col.offset-#{$i} {
+    .row .col.off-#{$i} {
         margin-left:1%*$i;
     }
 }

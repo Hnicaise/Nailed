@@ -116,7 +116,7 @@ aside {
 
 /* line 111, ../sass/index.scss */
 .separator {
-  height: 100px;
+  height: 80px;
   border: none; }
 
 /* line 115, ../sass/index.scss */
@@ -138,8 +138,8 @@ aside {
 /* line 129, ../sass/index.scss */
 .notification {
   position: relative;
-  background-color: #f8f8f8;
-  border-left: 4px solid #00b4db;
+  background-color: #FFFBE4;
+  border-left: 4px solid #ffca28;
   padding: 15px 30px; }
 /* line 134, ../sass/index.scss */
 .notification:before {

@@ -53,12 +53,12 @@
             <p>Nailed is a <b>CSS framework</b> made to speed up the development process. Unlike big frameworks, Nailed is designed for people who wants to go straight to the point. Nailed is <b>minimalist</b> and light as possible. The main goal is to offer developers a good working basis and some really useful functions <b>without any frills</b>. We are here to make it quick, and efficient.</p>
             <br>
             <p>You will find here all you need to know about Nailed, and if you need more informations or if you have feedbacks feel free to contact me.</p>
-            <br><br>
+            <br>
             <h3 id="Getting-started">Getting started</h3>
             <p class="notification">This framework is only an assistant. Nailed will manage some part of your work to enhance your productivity but won't replace your job. Take this as an exoskeleton but not as an autopilot. Let's code!</p>
             <br><br>
             <p>You can download Nailed by several ways. Choose the method that suits you the best.</p>
-            <br>
+            <br><br>
             <p><b>URL LINK :</b></p>
             <br>
             <pre><code><span class="comment">&lt;!-- Compiled and minified CSS --></span><br><span class="properties">&lt;link href=<span class="attribute">"http://hugonicaise.fr/nailed/css/nailed.css"</span>></span><br><br><span class="comment">&lt;!-- Compiled and minified JavaScript --></span><br><span class="properties">&lt;script src=<span class="attribute">"http://hugonicaise.fr/nailed/js/nailed.js"</span>>&lt;/script></span></code></pre>
@@ -76,7 +76,7 @@
             <p>To add a row in your page, just put your content inside a <b>&lt;div></b> tag with a row class. Here is down below the best way to set it up.</p>
             <br>
             <pre><code><span class="properties">&lt;div class=<span class="attribute">"row"</span>></span><br>&nbsp;&nbsp;&nbsp;<span class="properties">&lt;p></span>You nailed it!<span class="properties">&lt;/p></span><br><span class="properties">&lt;/div></span></code></pre>
-            <br><br>
+            <br>
             <h3 id="Content-spacing">Content spacing</h3>
             <p class="notification">As you can see on the code down below, there is some col class that you don't know yet. No worries, we are going to learn them later on. Stick to the row properties for the moment.</p>
             <br><br>
@@ -109,17 +109,22 @@
             <p>To add a column in your <b>row</b>, just put a <b>&lt;div></b> tag with a <b>col</b> class. By default, a <b>col</b> will cover all the space available in the container. If you have more than one <b>col</b> in, the space will shared between them into equal parts.</p>
             <br>
             <pre><code><span class="properties">&lt;div class=<span class="attribute">"row"</span>></span><br>&nbsp;&nbsp;&nbsp;<span class="properties">&lt;div class=<span class="attribute">"col"</span>><span class="regular">.col</span><span class="properties">&lt;/div></span><br>&nbsp;&nbsp;&nbsp;<span class="properties">&lt;div class=<span class="attribute">"col"</span>><span class="regular">.col</span><span class="properties">&lt;/div></span><br><span class="properties">&lt;/div></span></code></pre>
-            <br><br>
+            <br>
             <h3 id="Columns-dimensions">Dimensions</h3>
             <p><b>COL-0~100</b></p>
             <br>
             <p>You can add <b>col-0~100</b> class, which will define the <b>col</b> width in percentage between 0 and 100. Integer numbers supported only.</p>
             <br>
             <pre><code><span class="properties">&lt;div class=<span class="attribute">"row spread"</span>></span><br>&nbsp;&nbsp;&nbsp;<span class="properties">&lt;div class=<span class="attribute">"col col-50"</span>><span class="regular">.col-50</span><span class="properties">&lt;/div></span><br>&nbsp;&nbsp;&nbsp;<span class="properties">&lt;div class=<span class="attribute">"col col-20"</span>><span class="regular">.col-20</span><span class="properties">&lt;/div></span><br><span class="properties">&lt;/div></span></code></pre>
-            <br><br>
+            <br>
             <p class="notification">Notice that Col-0~100 has a forced width. If you place a <i>col-50<i> and a <i>col-20<i> in your row, 30% are still available. You can leave it empty if you want some space, or add regular cols to fill it.</p>
             <br><br>
             <h3 id="Columns-offset">Offset</h3>
+            <p><b>OFF-0~100</b></p>
+            <br>
+            <p>You can add <b>off-0~100</b> class, which will offset the <b>col</b> in percentage between 0 and 100. Integer numbers supported only.</p>
+            <br>
+            <pre><code><span class="properties">&lt;div class=<span class="attribute">"row"</span>></span><br>&nbsp;&nbsp;&nbsp;<span class="properties">&lt;div class=<span class="attribute">"col col-25"</span>><span class="regular">.col-25</span><span class="properties">&lt;/div></span><br>&nbsp;&nbsp;&nbsp;<span class="properties">&lt;div class=<span class="attribute">"col col-25 off-25"</span>><span class="regular">.col-25</span><span class="properties">&lt;/div></span><br><span class="properties">&lt;/div></span></code></pre>
             <h3 id="Columns-responsive">Responsive</h3>
          </div>
       </section>
