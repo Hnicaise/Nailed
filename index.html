@@ -1,90 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Documentation — Nailed Framework</title>
-        <link rel="icon" type="image/png" href="img/logo_nailed.png" />
-        <link type="text/css" rel="stylesheet" href="css/nailed.css" /> 
-        <link type="text/css" rel="stylesheet" href="css/index.css" />
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-        <meta name="viewport" content="width=device-width, user-scalable=no">
-    </head>
-    <body>
-        <img src="img/logo_nailed.svg" alt="logo nailed.io" class="logo" />
-        <a href="https://github.com/Hnicaise/Nailed" target="_blank"><img src="img/github.svg" alt="logo github" class="github" /></a>
-        <aside>
-            <ul class="side-menu">
-                <li><a href="#Introduction"><h2>Introduction</h2></a>
-                    <ul>
-                        <li><a href="#What-is-nailed">What is Nailed</a></li>
-                        <li><a href="#Getting-started">Getting started</a></li>
-                    </ul>
-                </li>
-                <li><h2><a href="#Rows">Rows</h2></a>
-                    <ul>
-                        <li><a href="#Rows-setup">Setup</a></li>
-                        <li><a href="#Content-spacing">Content spacing</a></li>
-                    </ul>
-                </li>
-                <li><h2><a href="#Columns">Columns</h2></a>
-                    <ul>
-                        <li><a href="#Columns-setup">Setup</a></li>
-                        <li><a href="#Columns-dimensions">Dimensions</a></li>
-                        <li><a href="#Columns-offset">Offset</a></li>
-                        <li><a href="#Columns-responsive">Responsive</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </aside>
-        <nav>
-            
-        </nav>
-        <section class="row small">
-            <div class="col">
-                <h2 id="Introduction">Introduction</h2>
-                <h3 id="What-is-nailed">What is Nailed</h3>
-                <p>Nailed is a <b>CSS framework</b> made to speed up the development process. Unlike big frameworks, Nailed is designed for people who wants to go straight to the point. Nailed is <b>minimalist</b> and light as possible. The main goal is to offer developers a good working basis and some really useful functions <b>without any frills</b>. We are here to make it quick, and efficient.</p>
-                <br>
-                <p>You will find here all you need to know about Nailed, and if you need more informations or if you have feedbacks feel free to contact me.</p>
-                <h3 id="Getting-started">Getting started</h3>
-                <p class="notification">This framework is only an assistant. Nailed will manage some part of your work to enhance your productivity but won't replace your job. Take this as an exoskeleton but not as an autopilot. Let's code!</p>
-                <br><br>
-                <p><b>URL :</b></p>
-                <br>
-                <pre><code><span class="comment">&lt;!-- Compiled and minified CSS --></span><br><span class="properties">&lt;link href=<span class="attribute">"http://hugonicaise.fr/nailed/css/nailed.css"</span>></span><br><br><span class="comment">&lt;!-- Compiled and minified JavaScript --></span><br><span class="properties">&lt;script src=<span class="attribute">"http://hugonicaise.fr/nailed/js/nailed.js"</span>>&lt;/script></span></code></pre>
-                <br><br>
-                <p><b>NPM :</b></p>
-                <br>
-                <pre><code><span class="properties">npm install<span class="attribute"> nailed-framework</span></code></pre>
-                <br><br>
-                <p><b>DOWNLOAD :</b></p>
-                <br>
-                <p><a href="#" class="download">SOURCE</a><a href="#" class="download">NAILED ONLY</a></p>
-                <hr class="separator">
-                <h2 id="Rows">Rows</h2>
-                <h3 id="Rows-setup">Setup</h3>
-                <h3 id="Content-spacing">Content spacing</h3>
-                <hr class="separator">
-                <h2 id="Columns">Columns</h2>
-                <h3 id="Columns-setup">Setup</h3>
-                <h3 id="Columns-dimensions">Dimensions</h3>
-                <h3 id="Columns-offset">Offset</h3>
-                <h3 id="Columns-responsive">Responsive</h3>
-            </div>
-        </section>
-        <script src="js/nailed.js"></script>
-        <script type="text/javascript">
-            $(document).ready(function() {
-                $('a[href^="#"]').on('click', function(e) {
-                    e.preventDefault();
-                    var target = this.hash;
-                    var $target = $(target);
-                    $('html, body').stop().animate({
-                        'scrollTop': $target.offset().top
-                    }, 900, 'swing', function() {
-                        window.location.hash = target;
-                    });
-                });
-            });
-        </script>
-    </body>
+   <head>
+      <title>Documentation — Nailed Framework</title>
+      <link rel="icon" type="image/png" href="img/logo_nailed.png" />
+      <link type="text/css" rel="stylesheet" href="css/nailed.css" />
+      <link type="text/css" rel="stylesheet" href="css/index.css" />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+   </head>
+   <body>
+      <img src="img/logo_nailed.svg" alt="logo nailed.io" class="logo" />
+      <a href="https://github.com/Hnicaise/Nailed" target="_blank"><img src="img/github.svg" alt="logo github" class="github" /></a>
+      <aside>
+         <ul class="side-menu">
+            <li>
+               <a href="#Introduction">
+                  <h2>Introduction</h2>
+               </a>
+               <ul>
+                  <li><a href="#What-is-nailed">What is Nailed</a></li>
+                  <li><a href="#Getting-started">Getting started</a></li>
+               </ul>
+            </li>
+            <li>
+               <a href="#Rows">
+                  <h2>Rows</h2>
+               </a>
+               <ul>
+                  <li><a href="#Rows-setup">Setup</a></li>
+                  <li><a href="#Content-spacing">Content spacing</a></li>
+               </ul>
+            </li>
+            <li>
+               <a href="#Columns">
+                  <h2>Columns</h2>
+               </a>
+               <ul>
+                  <li><a href="#Columns-setup">Setup</a></li>
+                  <li><a href="#Columns-dimensions">Dimensions</a></li>
+                  <li><a href="#Columns-offset">Offset</a></li>
+                  <li><a href="#Columns-responsive">Responsive</a></li>
+               </ul>
+            </li>
+         </ul>
+      </aside>
+      <nav>
+      </nav>
+      <section class="row small">
+         <div class="col">
+            <h2 id="Introduction">Introduction</h2>
+            <h3 id="What-is-nailed">What is Nailed</h3>
+            <p>Nailed is a <b>CSS framework</b> made to speed up the development process. Unlike big frameworks, Nailed is designed for people who wants to go straight to the point. Nailed is <b>minimalist</b> and light as possible. The main goal is to offer developers a good working basis and some really useful functions <b>without any frills</b>. We are here to make it quick, and efficient.</p>
+            <br>
+            <p>You will find here all you need to know about Nailed, and if you need more informations or if you have feedbacks feel free to contact me.</p>
+            <br><br>
+            <h3 id="Getting-started">Getting started</h3>
+            <p class="notification">This framework is only an assistant. Nailed will manage some part of your work to enhance your productivity but won't replace your job. Take this as an exoskeleton but not as an autopilot. Let's code!</p>
+            <br><br>
+            <p>You can download Nailed by several ways. Choose the method that suits you the best.</p>
+            <br>
+            <p><b>URL LINK :</b></p>
+            <br>
+            <pre><code><span class="comment">&lt;!-- Compiled and minified CSS --></span><br><span class="properties">&lt;link href=<span class="attribute">"http://hugonicaise.fr/nailed/css/nailed.css"</span>></span><br><br><span class="comment">&lt;!-- Compiled and minified JavaScript --></span><br><span class="properties">&lt;script src=<span class="attribute">"http://hugonicaise.fr/nailed/js/nailed.js"</span>>&lt;/script></span></code></pre>
+            <br><br>
+            <p><b>NPM :</b></p>
+            <br>
+            <pre><code><span class="properties">npm install<span class="attribute"> nailed-framework</span></span></code></pre>
+            <br><br>
+            <p><b>DOWNLOAD :</b></p>
+            <br>
+            <p><a href="#" class="download">source files</a><a href="#" class="download">nailed only</a></p>
+            <hr class="separator">
+            <h2 id="Rows">Rows</h2>
+            <h3 id="Rows-setup">Setup</h3>
+            <p>To add a row in your page, just put your content inside a <b>&lt;div></b> tag with a row class. Here is down below the best way to set it up.</p>
+            <br>
+            <pre><code><span class="properties">&lt;div class=<span class="attribute">"row"</span>></span><br>&nbsp;&nbsp;&nbsp;<span class="properties">&lt;p></span>You nailed it!<span class="properties">&lt;/p></span><br><span class="properties">&lt;/div></span></code></pre>
+            <br><br>
+            <h3 id="Content-spacing">Content spacing</h3>
+            <p class="notification">As you can see on the code down below, there is some col class that you don't know yet. No worries, we are going to learn them later on. Stick to the row properties for the moment.</p>
+            <br><br>
+            <p><b>START</b></p>
+            <br>
+            <p>The <b>start</b> class will align the elements on the left of the <b>row</b>. It is the default value. But if for any reason you have to force the left alignment, know that there is a property available for it.</p>
+            <br>
+            <pre><code><span class="properties">&lt;div class=<span class="attribute">"row start"</span>></span><br>&nbsp;&nbsp;&nbsp;<span class="properties">&lt;div class=<span class="attribute">"col col-25"</span>><span class="regular">.col</span><span class="properties">&lt;/div></span><br>&nbsp;&nbsp;&nbsp;<span class="properties">&lt;div class=<span class="attribute">"col col-25"</span>><span class="regular">.col</span><span class="properties">&lt;/div></span><br>&nbsp;&nbsp;&nbsp;<span class="properties">&lt;div class=<span class="attribute">"col col-25"</span>><span class="regular">.col</span><span class="properties">&lt;/div></span><br><span class="properties">&lt;/div></span></code></pre>
+            <br><br>
+            <p><b>END</b></p>
+            <br>
+            <p>The <b>end</b> class will align the elements on the right of the <b>row</b>.</p>
+            <br>
+            <pre><code><span class="properties">&lt;div class=<span class="attribute">"row end"</span>></span><br>&nbsp;&nbsp;&nbsp;<span class="properties">&lt;div class=<span class="attribute">"col col-25"</span>><span class="regular">.col</span><span class="properties">&lt;/div></span><br>&nbsp;&nbsp;&nbsp;<span class="properties">&lt;div class=<span class="attribute">"col col-25"</span>><span class="regular">.col</span><span class="properties">&lt;/div></span><br>&nbsp;&nbsp;&nbsp;<span class="properties">&lt;div class=<span class="attribute">"col col-25"</span>><span class="regular">.col</span><span class="properties">&lt;/div></span><br><span class="properties">&lt;/div></span></code></pre>
+            <br><br>
+            <p><b>SPREAD</b></p>
+            <br>
+            <p>The <b>spread</b> class will space out the elements all along the <b>row</b>.</p>
+            <br>
+            <pre><code><span class="properties">&lt;div class=<span class="attribute">"row spread"</span>></span><br>&nbsp;&nbsp;&nbsp;<span class="properties">&lt;div class=<span class="attribute">"col col-25"</span>><span class="regular">.col</span><span class="properties">&lt;/div></span><br>&nbsp;&nbsp;&nbsp;<span class="properties">&lt;div class=<span class="attribute">"col col-25"</span>><span class="regular">.col</span><span class="properties">&lt;/div></span><br>&nbsp;&nbsp;&nbsp;<span class="properties">&lt;div class=<span class="attribute">"col col-25"</span>><span class="regular">.col</span><span class="properties">&lt;/div></span><br><span class="properties">&lt;/div></span></code></pre>
+            <br><br>
+            <p><b>CENTER</b></p>
+            <br>
+            <p>The <b>center</b> class will gather the elements in the center of the <b>row</b>.</p>
+            <br>
+            <pre><code><span class="properties">&lt;div class=<span class="attribute">"row center"</span>></span><br>&nbsp;&nbsp;&nbsp;<span class="properties">&lt;div class=<span class="attribute">"col col-25"</span>><span class="regular">.col</span><span class="properties">&lt;/div></span><br>&nbsp;&nbsp;&nbsp;<span class="properties">&lt;div class=<span class="attribute">"col col-25"</span>><span class="regular">.col</span><span class="properties">&lt;/div></span><br>&nbsp;&nbsp;&nbsp;<span class="properties">&lt;div class=<span class="attribute">"col col-25"</span>><span class="regular">.col</span><span class="properties">&lt;/div></span><br><span class="properties">&lt;/div></span></code></pre>
+            <hr class="separator">
+            <h2 id="Columns">Columns</h2>
+            <h3 id="Columns-setup">Setup</h3>
+            <p>To add a column in your <b>row</b>, just put a <b>&lt;div></b> tag with a <b>col</b> class. By default, a <b>col</b> will cover all the space available in the container. If you have more than one <b>col</b> in, the space will shared between them into equal parts.</p>
+            <br>
+            <pre><code><span class="properties">&lt;div class=<span class="attribute">"row"</span>></span><br>&nbsp;&nbsp;&nbsp;<span class="properties">&lt;div class=<span class="attribute">"col"</span>><span class="regular">.col</span><span class="properties">&lt;/div></span><br>&nbsp;&nbsp;&nbsp;<span class="properties">&lt;div class=<span class="attribute">"col"</span>><span class="regular">.col</span><span class="properties">&lt;/div></span><br><span class="properties">&lt;/div></span></code></pre>
+            <br><br>
+            <h3 id="Columns-dimensions">Dimensions</h3>
+            <p><b>COL-0~100</b></p>
+            <br>
+            <p>You can add <b>col-0~100</b> class, which will define the <b>col</b> width in percentage between 0 and 100. Integer numbers supported only.</p>
+            <br>
+            <pre><code><span class="properties">&lt;div class=<span class="attribute">"row spread"</span>></span><br>&nbsp;&nbsp;&nbsp;<span class="properties">&lt;div class=<span class="attribute">"col col-50"</span>><span class="regular">.col-50</span><span class="properties">&lt;/div></span><br>&nbsp;&nbsp;&nbsp;<span class="properties">&lt;div class=<span class="attribute">"col col-20"</span>><span class="regular">.col-20</span><span class="properties">&lt;/div></span><br><span class="properties">&lt;/div></span></code></pre>
+            <br><br>
+            <p class="notification">Notice that Col-0~100 has a forced width. If you place a <i>col-50<i> and a <i>col-20<i> in your row, 30% are still available. You can leave it empty if you want some space, or add regular cols to fill it.</p>
+            <br><br>
+            <h3 id="Columns-offset">Offset</h3>
+            <h3 id="Columns-responsive">Responsive</h3>
+         </div>
+      </section>
+      <script src="js/nailed.js"></script>
+      <script>
+         $(document).ready(function() {
+             $('a[href^="#"]').on('click', function(e) {
+                 e.preventDefault();
+                 var target = this.hash;
+                 var $target = $(target);
+                 $('html, body').stop().animate({
+                     'scrollTop': $target.offset().top
+                 }, 900, 'swing', function() {
+                     window.location.hash = target;
+                 });
+             });
+         });
+      </script>
+   </body>
 </html>

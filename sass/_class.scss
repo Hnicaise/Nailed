@@ -22,6 +22,12 @@
 .row.center {
     justify-content: center;
 }
+.row.end {
+    justify-content: flex-end;
+}
+.row.start {
+    justify-content: flex-start;
+}
 
 /* COLUMN */
 .row .col{

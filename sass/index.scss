@@ -11,12 +11,12 @@ html {
     margin-top: 100px;
 }
 .row h2 {
-    font-size: 2.1rem;
+    font-size: 2.2rem;
     font-weight: bold;
     color: #263238;
 }
 .row h3 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: bold;
     color: #263238;
     border-bottom: 1px solid #f2f2f2;
@@ -64,12 +64,14 @@ ul {
 .download {
     background-color: #00b4db;
     color: white;
-    padding: 8px 12px 10px 12px;
+    padding: 3px 25px 10px 25px;
     border-radius: 3px;
     transition: .2s;
     margin-right: 20px;
-    font-weight: 400;
+    font-weight: 700;
     display: inline;
+    font-variant: small-caps;
+    font-size: 1.3rem;
     &:after {
         content: "";
         position: relative;
@@ -161,6 +163,9 @@ code {
     }
     .properties {
         color: #00b4db;
+    }
+    .regular {
+        color: #000;
     }
 }
 
